@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import url("https://yumm-b612.github.io/hosting/MinimalCord/base.css");
+
+:root {
+  --border-radius: 0px;
+  --discord-green: 67 181 129;
+  --discord-yellow: 219 171 9;
+  --discord-red: 215 58 73;
+  --discord-purple: 89 54 149;
+  --discord-invisible: 117 128 142;
+  --discord-nitro: 255 115 250;
+  --discord-blurple: 114 137 218;
+  --discord-spotify: 29 185 84;
+  --discord-twitch: 89 54 149;
+  --discord-xbox: 16 124 16;
+  --background-modifier-selected: var(--background-light);
+  --background-modifier-hover: var(--background-alt);
+  --background-modifier-active: var(--background-light);
+  --channels-default: var(--text-normal);
+
+  --accent: 222, 47, 69;
+
+  --message-padding: 10px;
+  --message-spacing: 5px;
+  --font: 'JetBrains Mono';
+}
+
+.theme-light,
+html.theme-light #app-mount .theme-light .root-1gCeng,
+html.theme-light .force-theme.theme-light {
+  --background-light: #fff;
+  --background-light-alt: #fff;
+  --background: #edf2f7;
+  --background-alt: #f7fafc;
+  --background-dark: #e2e8f0;
+  --text-normal: #2d3748;
+  --text-muted: #718096;
+  --text-focus: #1a202c;
+  --font-weight-light: 400;
+  --font-weight-normal: 500;
+  --font-weight-semibold: 700;
+  --font-weight-bold: 700;
+  --box-shadow: 0 4px 9px rgba(0 0 0 / 0.2);
+  --box-shadow-alt: 0 2px 5px rgba(0 0 0 / 0.1);
+  --scrollbar-colour: rgba(0 0 0 / 0.2);
+  --edit-message-box: var(--background-light);
+  --message-background: var(--background-light);
+}
+
+.theme-dark,
+html.theme-dark #app-mount .theme-light .root-1gCeng,
+html.theme-dark .force-theme.theme-light {
+  --background-light: #22262e;
+  --background-light-alt: #1f2329;
+  --background: #22262e;
+  --background-alt: #1f2329;
+  --background-dark: #1b1f25;
+  --text-normal: #EBCB8B;
+  --text-muted: #686a6d;
+  --text-focus: #fff;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-semibold: 500;
+  --font-weight-bold: 800;
+  --box-shadow: 0 4px 9px rgba(0 0 0 / 0.2);
+  --box-shadow-alt: 0 2px 5px rgba(0 0 0 / 0.2);
+  --scrollbar-colour: #EBCB8B;
+  --edit-message-box: var(--background-light);
+  --message-background: var(--background-alt);
+}
